@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+	<section id="wrapper">
+		<header id="header">
+			<img id="avatar" class="2x" src="{% static '/images/avatar.jpg' %}"/>
+			<h1>{% block title %}Prototypje{% endblock title %}</h1>
+			<h2>A blazing fast prototyping architecture</h2>
+		</header>
+
+		<p align="center">This architecture allows for launching new prototypjes fast and easy. Prototyping allows you to try out new approaches which leads to better end-results.</p>
+	</section>
+
+{% endblock content %}
